@@ -103,8 +103,8 @@ script:
 #   - git describe --tags --always
 #   - ./openebs-deploy.sh
 
-branches:
-  only:
-  - develop
-  - /^\d+\.\d+(\.\d+)?(-\S*)?$/
-  - /^v\d+\.\d+(\.\S*)?$/
+#branches:
+#  only:
+#  - develop
+#  - /^\d+\.\d+(\.\d+)?(-\S*)?$/
+#  - /^v\d+\.\d+(\.\S*)?$/
