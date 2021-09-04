@@ -27,7 +27,7 @@ rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
 # download the test script from openebs/openebs and execute it.
 echo "**************Executing common test script from openebs/openebs**************"
 curl https://raw.githubusercontent.com/openebs/maya/v2.12.x/ci/test-script.sh > test-script.sh
-curl https://raw.githubusercontent.com/openebs/maya/v2.12.x/ci/spc-manual.yaml > spc-manual.yaml
+curl https://raw.githubusercontent.com/openebs/maya/v2.12.x/ci/spc-manual.yaml > ./ci/spc-manual.yaml
 
 ## Compile udev c code and build binary in /var/openebs/sparse
 echo "Creating /var/openebs/sparse/udev_checks directory"
